@@ -7,9 +7,7 @@ To run this code, you need to have Python installed along with the python-barcod
 
 ```bash
 pip install python-barcode
-```
 # OR
-```bash
 pip install -r requirements.txt
 ```
 
