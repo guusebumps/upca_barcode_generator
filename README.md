@@ -22,12 +22,12 @@ from barcode import UPCA
 from io import BytesIO
 ```
 
-barcode: A library to generate barcodes in various formats.
-random: Python’s built-in module to generate random numbers.
-ImageWriter: Used for generating barcodes as images.
-SVGWriter: Used for generating barcodes as SVG files.
-UPCA: Represents the UPC-A barcode format.
-BytesIO: Allows the code to work with byte objects in memory, though it is not used in this script.
+* barcode: A library to generate barcodes in various formats.
+* random: Python’s built-in module to generate random numbers.
+* ImageWriter: Used for generating barcodes as images.
+* SVGWriter: Used for generating barcodes as SVG files.
+* UPCA: Represents the UPC-A barcode format.
+* BytesIO: Allows the code to work with byte objects in memory, though it is not used in this script.
 
 # Global Variables
 ```bash
@@ -82,14 +82,11 @@ This will generate a barcode and save it in the specified path (./barcodes/gener
 # Customization
 You can customize the generated barcode by modifying the individual_number, length, or the path_svg variable.
 
-individual_number: Change this value to alter the starting number of the barcode.
-length: Modify this to change the length of the manufacturer and product numbers.
-path_svg: Change the file path to save the barcode in a different location or with a different name.
+* individual_number: Change this value to alter the starting number of the barcode.
+* length: Modify this to change the length of the manufacturer and product numbers.
+* path_svg: Change the file path to save the barcode in a different location or with a different name.
+  
 # Contributing
 Feel free to fork this project and submit pull requests for any improvements or new features. Contributions are welcome!
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-Para rodar basta fazer um Git Clone e em seguida rodar "pip install -r requirements.txt"
+To run it, just do a Git Clone and then run "pip install -r requirements.txt"
