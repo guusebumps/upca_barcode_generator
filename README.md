@@ -5,25 +5,22 @@ This project is a simple barcode generator using Python. It creates a UPC-A barc
 # Prerequisites
 To run this code, you need to have Python installed along with the python-barcode package. You can install the package using pip:
 
-pip install python-barcode
-
 ```bash
 pip install python-barcode
-# Este é um bloco de código Bash
-echo "Hello, World!"
 ```
 
 # Code Overview
 This script generates a UPC-A barcode and saves it as an SVG file. The barcode consists of an individual number, a manufacturer number, and a product number. Here is a breakdown of the code:
 
 # Import Statements
-
+```bash
 import barcode
 import random
 from barcode.writer import ImageWriter
 from barcode.writer import SVGWriter
 from barcode import UPCA
 from io import BytesIO
+```
 
 barcode: A library to generate barcodes in various formats.
 random: Python’s built-in module to generate random numbers.
@@ -31,12 +28,14 @@ ImageWriter: Used for generating barcodes as images.
 SVGWriter: Used for generating barcodes as SVG files.
 UPCA: Represents the UPC-A barcode format.
 BytesIO: Allows the code to work with byte objects in memory, though it is not used in this script.
+
 Global Variables
-python
-Copiar código
+```bash
 path_svg = './barcodes/generated.svg'
 length = 5
 numbers = '0123456789'
+```
+
 path_svg: The path where the generated SVG file will be saved.
 length: The length of the random number sequences used for manufacturer and product numbers.
 numbers: A string containing digits from which random numbers will be selected.
