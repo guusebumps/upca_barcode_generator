@@ -8,6 +8,10 @@ To run this code, you need to have Python installed along with the python-barcod
 ```bash
 pip install python-barcode
 ```
+# OR
+```bash
+pip install -r requirements.txt
+```
 
 # Code Overview
 This script generates a UPC-A barcode and saves it as an SVG file. The barcode consists of an individual number, a manufacturer number, and a product number. Here is a breakdown of the code:
@@ -88,5 +92,3 @@ You can customize the generated barcode by modifying the individual_number, leng
   
 # Contributing
 Feel free to fork this project and submit pull requests for any improvements or new features. Contributions are welcome!
-
-To run it, just do a Git Clone and then run "pip install -r requirements.txt"
